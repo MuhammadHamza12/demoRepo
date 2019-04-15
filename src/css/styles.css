@@ -1,0 +1,10 @@
+/* .list-group{
+  max-height: 3000px;
+  margin-bottom: 1000px;
+  overflow:scroll;
+  -webkit-overflow-scrolling: touch;
+} */
+.anyClass {
+  height:450px;
+  overflow-y: scroll;
+}

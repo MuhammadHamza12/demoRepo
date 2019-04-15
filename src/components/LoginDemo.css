@@ -1,0 +1,49 @@
+.form-group:focus{
+  outline:0px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none;
+}
+.DemoCss {
+ border: 1px solid black; 
+}
+
+.mainDiv{
+  background: white;
+  border-radius: 8px;
+}
+
+.textFeildClass {
+  border:none;
+}
+.upper_class {
+  width: '100%';
+  /* height: 170px; */
+  border-radius: 8px;
+  /* overflow: hidden; */
+}
+.image_Text{
+  
+  color: white;
+  position:relative;
+  display:inline;
+  top:20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.imageClass {
+  text-align: center;
+  display:block;
+  margin:0 auto;
+  width:80%;
+  min-width: '100%';
+  min-height: 70px;
+  position:relative;
+  bottom:30px;
+  /* background: linear-gradient(rgba(0,.5,0,.5), rgba(.5,.5,0,.5)), */
+  /* url('../Assets/toplog3.jpg'); */
+  background:  linear-gradient(to right, #af7afe 0%,#933cfe 54%,#bc76fe 100%); 
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-position: center;
+  background-size: cover;
+}
