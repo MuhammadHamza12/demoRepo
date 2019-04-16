@@ -88,7 +88,7 @@ export default class DemoLoginForm extends Component {
             onChange={this.onHandleTextChange} name='password' style={{borderTop:0,borderLeft:0,borderRight:0,boxShadow:'none'}} required type="password" 
             class={`form-control ${errors.password ? 'is-invalid' : '' || (!errors.password && this.state.password.length > 0) ? 'is-valid' : ''}`} id="exampleInputPassword1" placeholder="Password" />
             <div className='row' style={{paddingTop:10}}  >
-              <div className='col-sm-12' >
+              <div className='col-sm-12' style={{display:'flex'}}  >
                 Remember me
                
                 <input style={{margin:5}} type="checkbox" aria-label="Checkbox for following text input" />
@@ -97,13 +97,13 @@ export default class DemoLoginForm extends Component {
               </div>
               
             </div>
-            <div style={{paddingTop:20}} >
+            <div style={{paddingTop:20,display:'flex'}} >
 
           <button   style={{borderRadius:30,borderColor:'white'}} type="submit" class="btn btn-success btn-lg buttonAppear">Login</button>
-          <div className='col-sm-12' style={{cursor:'pointer',padding:0}} >
+            </div>
+          <div className='col-sm-12' style={{cursor:'pointer',padding:0,display:'flex'}} >
                 Forget password ? 
               </div>
-            </div>
            </div>
             </div>
         </form>
