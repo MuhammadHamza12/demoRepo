@@ -57,10 +57,10 @@ export default class DemoLoginForm extends Component {
                 <h3 className='image_Text'>Log In</h3>
               </div>
             </div>
-        <form onSubmit={this.onHandleSubmit} noValidate>
+        <form style={{padding:30}} onSubmit={this.onHandleSubmit} noValidate>
             <div style={{display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
             <div style={{width:120}} >
-            <label className='checkCss' for="exampleInputEmail1">Email address</label>
+            <label className='checkCss' for="exampleInputEmail1">Username</label>
             </div>
             {/* <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> */}
            <div style={{width:'70%'}} >
@@ -70,9 +70,9 @@ export default class DemoLoginForm extends Component {
             style={{borderTop:0,borderLeft:0,borderRight:0,boxShadow:'none'}} 
             value={this.state.email}
             required  
-            type="email" 
+            type="text" 
             className={`form-control ${(errors.email) ? 'is-invalid' : '' || (errors.isEmail) ? 'is-invalid' : '' || (!errors.email && !errors.isEmail && this.state.email.length > 0) ? 'is-valid' : '' }   `} 
-            id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+            id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username" />
            
            </div>
            
@@ -99,7 +99,7 @@ export default class DemoLoginForm extends Component {
             </div>
             <div style={{paddingTop:20}} >
 
-          <button style={{borderRadius:30}} type="submit" class="btn btn-success btn-lg">Login</button>
+          <button   style={{borderRadius:30,borderColor:'white'}} type="submit" class="btn btn-success btn-lg buttonAppear">Login</button>
           <div className='col-sm-12' style={{cursor:'pointer',padding:0}} >
                 Forget password ? 
               </div>

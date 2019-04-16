@@ -15,6 +15,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Dashboard from './Container/Dashboard.jsx';
 import NotFound from './components/NotFound.jsx';
+import MainPage from './components/MainPage.jsx';
 import { faIgloo } from '@fortawesome/free-solid-svg-icons';
 library.add(faIgloo)
 
@@ -43,7 +44,7 @@ class App extends Component {
       // </div>
       <div>
        <div>
-         <Head />
+         {/* <Head /> */}
          </div>
          <div>
          <Switch>

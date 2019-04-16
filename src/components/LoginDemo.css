@@ -3,15 +3,17 @@
   -webkit-box-shadow: none !important;
   box-shadow: none;
 }
+.buttonAppear {
+  background:   linear-gradient(45deg, #ae5fcb 0%,#8900a8 80%,#8900a8 80%,#8900a8 85%,#a647c1 99%,#a647c1 99%,#c237db 100%);
+  border-color:white;
+}
 .DemoCss {
  border: 1px solid black; 
 }
-
 .mainDiv{
   background: white;
   border-radius: 8px;
 }
-
 .textFeildClass {
   border:none;
 }
@@ -21,29 +23,30 @@
   border-radius: 8px;
   /* overflow: hidden; */
 }
-.image_Text{
-  
+.image_Text{ 
   color: white;
   position:relative;
   display:inline;
-  top:20px;
+  top:10px;
   font-size: 40px;
   font-weight: bold;
 }
 .imageClass {
+  box-shadow: 5px 5px 5px gray;
   text-align: center;
   display:block;
+  border-radius: 5px;
   margin:0 auto;
-  width:80%;
+  width:90%;
   min-width: '100%';
   min-height: 70px;
   position:relative;
   bottom:30px;
   /* background: linear-gradient(rgba(0,.5,0,.5), rgba(.5,.5,0,.5)), */
   /* url('../Assets/toplog3.jpg'); */
-  background:  linear-gradient(to right, #af7afe 0%,#933cfe 54%,#bc76fe 100%); 
+  background:   linear-gradient(45deg, #ae5fcb 0%,#8900a8 80%,#8900a8 80%,#8900a8 85%,#a647c1 99%,#a647c1 99%,#c237db 100%);
   background-repeat: no-repeat;
-  opacity: 0.5;
+  /* opacity: 0.8; */
   background-position: center;
   background-size: cover;
 }
