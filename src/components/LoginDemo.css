@@ -1,10 +1,30 @@
+
+.backgroundImg {
+ height: 570px; 
+ background-image:url('../images/backimg.jpeg');
+ margin: 0 auto;
+
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ max-width:100%;
+ position:relative;
+ bottom: 59px;
+}
+
+.contestLeaders
+{
+    /* overflow:hidden; */
+    /* margin-bottom:30px; */
+    /* position: relative; */
+}
 .form-group:focus{
   outline:0px !important;
   -webkit-box-shadow: none !important;
   box-shadow: none;
 }
 .buttonAppear {
-  background:   linear-gradient(45deg, #ae5fcb 0%,#8900a8 80%,#8900a8 80%,#8900a8 85%,#a647c1 99%,#a647c1 99%,#c237db 100%);
+  background-color:#0a4f5e; 
   border-color:white;
 }
 .DemoCss {
@@ -17,6 +37,7 @@
 .textFeildClass {
   border:none;
 }
+
 .upper_class {
   width: '100%';
   /* height: 170px; */
@@ -44,7 +65,7 @@
   bottom:30px;
   /* background: linear-gradient(rgba(0,.5,0,.5), rgba(.5,.5,0,.5)), */
   /* url('../Assets/toplog3.jpg'); */
-  background:   linear-gradient(45deg, #ae5fcb 0%,#8900a8 80%,#8900a8 80%,#8900a8 85%,#a647c1 99%,#a647c1 99%,#c237db 100%);
+  background:#0a4f5e;
   background-repeat: no-repeat;
   /* opacity: 0.8; */
   background-position: center;

@@ -1,3 +1,9 @@
+.contestLeaders
+{
+    overflow:hidden;
+    margin-bottom:30px;
+    position: relative;
+}
 .checkCss{
   border:1x solid black;
 }

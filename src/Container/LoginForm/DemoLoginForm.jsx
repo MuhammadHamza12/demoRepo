@@ -89,17 +89,13 @@ export default class DemoLoginForm extends Component {
             class={`form-control ${errors.password ? 'is-invalid' : '' || (!errors.password && this.state.password.length > 0) ? 'is-valid' : ''}`} id="exampleInputPassword1" placeholder="Password" />
             <div className='row' style={{paddingTop:10}}  >
               <div className='col-sm-12' style={{display:'flex'}}  >
-                Remember me
-               
+                Remember me               
                 <input style={{margin:5}} type="checkbox" aria-label="Checkbox for following text input" />
-               
-                
               </div>
-              
             </div>
             <div style={{paddingTop:20,display:'flex'}} >
-
-          <button   style={{borderRadius:30,borderColor:'white'}} type="submit" class="btn btn-success btn-lg buttonAppear">Login</button>
+          <button   style={{borderRadius:30,borderColor:'white',backgroundColor:'#0a4f5e'}} type="submit" class="btn btn-success btn-lg">           <i  className="fas fa-sign-in-alt"></i>
+ Login</button>
             </div>
           <div className='col-sm-12' style={{cursor:'pointer',padding:0,display:'flex'}} >
                 Forget password ? 
